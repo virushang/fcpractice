@@ -7,6 +7,12 @@
   background: none;
 }
 
+.files-section ,
+.users-section { 
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
 .files-list-item {
   box-sizing: border-box;
   height: 72px;
@@ -16,13 +22,18 @@
   overflow: auto;
 }
 
-.files-list-item h3 {
+
+.files-list-item-info {
+  float: left;
+}
+
+.files-list-item .files-list-item-info h3 {
   font-size: 16px;
    line-height: 24px;
    color: rgba(0, 0, 0, 0.87);
 }
 
-.files-list-item-sub {
+.files-list-item .files-list-item-info .files-list-item-sub {
    font-size: 14px;
    line-height: 20px; 
    color: rgba(0, 0, 0, 0.54);
@@ -30,29 +41,57 @@
 
 .files-list-item .icon-button {
   float:right;
-  margin-bottom: 24px;
-  margin-right: 16px;
+  margin-right: 10px;
+  margin-top: 8px;
 }
 
 .users-list-item {
   box-sizing: border-box;
   height: 56px;
+  overflow: auto;
+}
+
+.users-list-item-info {
+  float: left;
+  overflow: auto;
+}
+
+.users-list-item-info .photo {
+  float: left;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-size: cover;
+  background-position: center;
+
+  margin-left: 16px;
+  margin-top: 8px;
 
 }
 
 .users-list-item-sub {
+  float: left;
   font-size: 16px;
    line-height: 24px;
    color: rgba(0, 0, 0, 0.87);
    padding-left: 16px;
-   padding-top: 17px;
+   padding-top: 17px
 }
+
+.users-list-item .icon-button {
+  float:right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
 
 .notes-section p {
    font-size: 14px;
    line-height: 24px;
    color: rgba(0, 0, 0, 0.87);
    padding-left: 16px;
+   padding-bottom: 14px;
+   padding-right: 10px;
 }
 
 .fab {

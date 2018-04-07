@@ -54,6 +54,12 @@ body {
   overflow:auto;
 }
 
+
+
+.app-bar-right .icon-button:first-child {
+  margin-right: 10px;
+}
+
 .app-bar-right .icon-button {
   float: right;
   margin-right: 16px;
