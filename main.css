@@ -1,9 +1,19 @@
+.icon-button {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  background: none;
+}
+
 .files-list-item {
   box-sizing: border-box;
   height: 72px;
 
   padding-top: 16px;
   padding-left: 16px;
+  overflow: auto;
 }
 
 .files-list-item h3 {
@@ -18,6 +28,11 @@
    color: rgba(0, 0, 0, 0.54);
 }
 
+.files-list-item .icon-button {
+  float:right;
+  margin-bottom: 24px;
+  margin-right: 16px;
+}
 
 .users-list-item {
   box-sizing: border-box;

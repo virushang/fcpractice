@@ -40,7 +40,7 @@ body {
   padding-top: 14px;
 }
 
-.app-bar-left .icon-button.navi-button {
+.app-bar-left .icon-button {
   float: left;
   margin-right: 16px;
   margin-left: 16px;
@@ -54,15 +54,10 @@ body {
   overflow:auto;
 }
 
-.app-bar-right .icon-button.navi-button {
+.app-bar-right .icon-button {
   float: right;
   margin-right: 16px;
 }
-.app-bar-right .icon-button.navi-button:first-child {
-
-}
-
-
 
 
 .contents{
