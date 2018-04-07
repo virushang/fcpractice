@@ -12,14 +12,17 @@ body {
   
   font-size: 20px;
   color: white;
-  padding: 0 24px;
+  padding-left: 16px;
+  padding-top: 14px;
 
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
-
 }
 
 
+.contents{
+  padding-top: 62px;
 
+}
