@@ -4,6 +4,24 @@ body {
   background-color: #eeeeee;
 }
 
+h2 {
+  box-sizing: border-box;
+  height: 48px;
+  font-size: 14px;
+  color: #009789;
+  padding-top: 14px;
+  padding-left: 16px;
+}
+
+.icon-button {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  background: none;
+}
+
 .app-bar {
   box-sizing: border-box;
   height: 56px;
@@ -18,14 +36,6 @@ body {
   overflow: auto;
 }
 
-.icon-button {
-  margin: 0;
-  border: 0;
-  padding: 0;
-  width: 24px;
-  height: 24px;
-  background: none;
-}
 
 .app-bar-left {
   float: left;
@@ -71,11 +81,9 @@ body {
 
 }
 
-h2 {
-  box-sizing: border-box;
-  height: 48px;
-  font-size: 14px;
-  color: #009789;
-  padding-top: 14px;
-  padding-left: 16px;
+
+@media screen and (min-width: 1080px) {
+
+
+
 }

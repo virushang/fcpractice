@@ -7,7 +7,7 @@
   background: none;
 }
 
-.files-section ,
+.files-section,
 .users-section { 
   padding-bottom: 8px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
@@ -107,3 +107,9 @@
   right: 16px;
   bottom: 16px;
 }
+
+
+@media screen and (min-width: 1080px) {
+
+
+  }
