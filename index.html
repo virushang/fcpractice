@@ -4,16 +4,29 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" type="text/css" href="shared.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
     <title>Practice</title>
   </head>
  <body>
   <div class="app-bar">
+    <div class="app-bar-left">
+       <div class="app-bar__left">
+       <button class="icon-button menu-button"><img src="menu.svg">
+       </button>
+    </div>
     <h1>Application</h1>
+    </div>
+    <div class="app-bar-right">
+      <button class="icon-button menu-button"><img src="search.svg">
+      </button>
+      <button class="icon-button menu-button"><img src="more.svg">
+      </button>
+    </div>
     
   </div>
   <div class="contents">
     <div class="files-section">
-      <h2>files</h2>
+      <h2>Files</h2>
       <ul class="files-list">
         <li class="files-list-item">
           <h3>Document 1</h3>
@@ -48,7 +61,9 @@
       </p>
     </div>
   </div>
-  <button id="fab" class="fab"></button>
+  <button id="fab" class="fab">
+    <img src="bounds.svg">
+  </button>
  
 
  </body>

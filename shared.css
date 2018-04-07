@@ -26,3 +26,12 @@ body {
   padding-top: 62px;
 
 }
+
+h2 {
+  box-sizing: border-box;
+  height: 48px;
+  font-size: 14px;
+  color: #009789;
+  padding-top: 14px;
+  padding-left: 16px;
+}

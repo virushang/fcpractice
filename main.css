@@ -1,0 +1,55 @@
+.files-list-item {
+  box-sizing: border-box;
+  height: 72px;
+
+  padding-top: 16px;
+  padding-left: 16px;
+}
+
+.files-list-item h3 {
+  font-size: 16px;
+   line-height: 24px;
+   color: rgba(0, 0, 0, 0.87);
+}
+
+.files-list-item-sub {
+   font-size: 14px;
+   line-height: 20px; 
+   color: rgba(0, 0, 0, 0.54);
+}
+
+
+.users-list-item {
+  box-sizing: border-box;
+  height: 56px;
+
+}
+
+.users-list-item-sub {
+  font-size: 16px;
+   line-height: 24px;
+   color: rgba(0, 0, 0, 0.87);
+   padding-left: 16px;
+   padding-top: 17px;
+}
+
+.notes-section p {
+   font-size: 14px;
+   line-height: 24px;
+   color: rgba(0, 0, 0, 0.87);
+   padding-left: 16px;
+}
+
+.fab {
+
+  width: 56px;
+  height: 56px;
+  background: #ff3f6f;
+  border: 0;
+  border-radius: 100%;
+  box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.24), 0 0 12px 0 rgba(0, 0, 0, 0.12), 0 6px 6px 0 rgba(0, 0, 0, 0.24), 0 0 6px 0 rgba(0, 0, 0, 0.12);
+
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+}
