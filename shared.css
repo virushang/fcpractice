@@ -10,16 +10,59 @@ body {
   background-color: #009688;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.24);
   
-  font-size: 20px;
-  color: white;
-  padding-left: 16px;
-  padding-top: 14px;
-
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
+
+  overflow: auto;
 }
+
+.icon-button {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  background: none;
+}
+
+.app-bar-left {
+  float: left;
+  overflow:auto;
+}
+.app-bar-left h1 {
+  
+  float: left;
+
+  font-size: 20px;
+  color: white;
+  padding-top: 14px;
+}
+
+.app-bar-left .icon-button.navi-button {
+  float: left;
+  margin-right: 16px;
+  margin-left: 16px;
+  margin-top: 16px;
+
+}
+
+.app-bar-right {
+  float: right;
+  margin-top: 16px;
+  overflow:auto;
+}
+
+.app-bar-right .icon-button.navi-button {
+  float: right;
+  margin-right: 16px;
+}
+.app-bar-right .icon-button.navi-button:first-child {
+
+}
+
+
 
 
 .contents{
