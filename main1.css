@@ -1,3 +1,4 @@
+
 .icon-button {
   margin: 0;
   border: 0;
@@ -11,6 +12,7 @@
 .users-section { 
   padding-bottom: 8px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  overflow: auto;
 }
 
 .files-list-item {
@@ -51,10 +53,6 @@
   overflow: auto;
 }
 
-.users-list-item-info {
-  float: left;
-  overflow: auto;
-}
 
 .users-list-item-info .photo {
   float: left;
@@ -79,7 +77,7 @@
 }
 
 .users-list-item .icon-button {
-  float:right;
+  float: right;
   margin-right: 10px;
   margin-top: 10px;
 }
@@ -111,61 +109,66 @@
 
 @media screen and (min-width: 1080px) {
 
-.files-section,
-.users-section,
-.notes-section
- { 
-  padding-bottom: 8px;
-  border-bottom: 0px solid rgba(0, 0, 0, 0.12);
-  margin-right: 190px;
-  margin-left: 190px;
-}
+  .files-section,
+  .users-section  { 
+     border-bottom: 0px solid rgba(0, 0, 0, 0.12);
+  }
 
-.files-list-item {
-  box-sizing: border-box;
-  height: 72px;
-
-  padding-top: 16px;
-  overflow: auto;
-}
+  .files-list-item {
+     width: 282px;
+     border: solid 1px rgba(0, 0, 0, 0.12);
+     background-color: white;
 
 
-.files-list-item-info {
-  float: left;
-}
-
-.files-list-item .files-list-item-info h3 {
-  font-size: 16px;
-   line-height: 24px;
-   color: rgba(0, 0, 0, 0.87);
-}
-
-.files-list-item .files-list-item-info .files-list-item-sub {
-   font-size: 14px;
-   line-height: 20px; 
-   color: rgba(0, 0, 0, 0.54);
-}
-
-.files-list-item .icon-button {
-  float:right;
-  margin-right: 10px;
-  margin-top: 8px;
-}
-
-.notes-section p {
-   box-sizing: border-box;
-   background-color: white;
-   margin-bottom: 48px;
+     margin-right: 12px;
+     margin-left: 12px;
+     float: left;
+  }
 
 
-   font-size: 16px;
-   line-height: 24px;
-   color: rgba(0, 0, 0, 0.87);
-   padding-left: 16px;
-   padding-bottom: 24px;
-   padding-top: 24px;
-   padding-right: 16px;
-}
+  .users-list-item {
+      width: 282px;
+      height: 338px;
+      border: solid 1px rgba(0, 0, 0, 0.12);
+      background-color: white;
 
+     margin-right: 12px;
+     margin-left: 12px;
+     float: left;
+  }
+
+
+  .users-list-item-info .photo {
+      width: 282px;
+      height: 282px;
+      border-radius: 0%;
+
+      margin-left: 0px;
+      margin-top: 0px;
 
   }
+  .users-list-item .icon-button {   
+      margin-top: 16px;
+  }
+
+
+
+  .notes-section p {
+     box-sizing: border-box;
+     background-color: white;
+     margin-bottom: 48px;
+     border: solid 1px rgba(0, 0, 0, 0.12);
+
+
+     font-size: 16px;
+     color: rgba(0, 0, 0, 0.87);
+     padding-bottom: 24px;
+     padding-top: 24px;
+     padding-right: 16px;
+
+     margin-left: 12px;
+     margin-right: 12px;
+  }
+
+
+}
