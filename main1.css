@@ -1,0 +1,171 @@
+.icon-button {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  background: none;
+}
+
+.files-section,
+.users-section { 
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.files-list-item {
+  box-sizing: border-box;
+  height: 72px;
+
+  padding-top: 16px;
+  padding-left: 16px;
+  overflow: auto;
+}
+
+
+.files-list-item-info {
+  float: left;
+}
+
+.files-list-item .files-list-item-info h3 {
+  font-size: 16px;
+   line-height: 24px;
+   color: rgba(0, 0, 0, 0.87);
+}
+
+.files-list-item .files-list-item-info .files-list-item-sub {
+   font-size: 14px;
+   line-height: 20px; 
+   color: rgba(0, 0, 0, 0.54);
+}
+
+.files-list-item .icon-button {
+  float:right;
+  margin-right: 10px;
+  margin-top: 8px;
+}
+
+.users-list-item {
+  box-sizing: border-box;
+  height: 56px;
+  overflow: auto;
+}
+
+.users-list-item-info {
+  float: left;
+  overflow: auto;
+}
+
+.users-list-item-info .photo {
+  float: left;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-size: cover;
+  background-position: center;
+
+  margin-left: 16px;
+  margin-top: 8px;
+
+}
+
+.users-list-item-sub {
+  float: left;
+  font-size: 16px;
+   line-height: 24px;
+   color: rgba(0, 0, 0, 0.87);
+   padding-left: 16px;
+   padding-top: 17px
+}
+
+.users-list-item .icon-button {
+  float:right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+
+.notes-section p {
+   font-size: 14px;
+   line-height: 24px;
+   color: rgba(0, 0, 0, 0.87);
+   padding-left: 16px;
+   padding-bottom: 14px;
+   padding-right: 10px;
+}
+
+.fab {
+
+  width: 56px;
+  height: 56px;
+  background: #ff3f6f;
+  border: 0;
+  border-radius: 100%;
+  box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.24), 0 0 12px 0 rgba(0, 0, 0, 0.12), 0 6px 6px 0 rgba(0, 0, 0, 0.24), 0 0 6px 0 rgba(0, 0, 0, 0.12);
+
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+}
+
+
+@media screen and (min-width: 1080px) {
+
+.files-section,
+.users-section,
+.notes-section
+ { 
+  padding-bottom: 8px;
+  border-bottom: 0px solid rgba(0, 0, 0, 0.12);
+  margin-right: 190px;
+  margin-left: 190px;
+}
+
+.files-list-item {
+  box-sizing: border-box;
+  height: 72px;
+
+  padding-top: 16px;
+  overflow: auto;
+}
+
+
+.files-list-item-info {
+  float: left;
+}
+
+.files-list-item .files-list-item-info h3 {
+  font-size: 16px;
+   line-height: 24px;
+   color: rgba(0, 0, 0, 0.87);
+}
+
+.files-list-item .files-list-item-info .files-list-item-sub {
+   font-size: 14px;
+   line-height: 20px; 
+   color: rgba(0, 0, 0, 0.54);
+}
+
+.files-list-item .icon-button {
+  float:right;
+  margin-right: 10px;
+  margin-top: 8px;
+}
+
+.notes-section p {
+   box-sizing: border-box;
+   background-color: white;
+   margin-bottom: 48px;
+
+
+   font-size: 16px;
+   line-height: 24px;
+   color: rgba(0, 0, 0, 0.87);
+   padding-left: 16px;
+   padding-bottom: 24px;
+   padding-top: 24px;
+   padding-right: 16px;
+}
+
+
+  }

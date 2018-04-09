@@ -33,13 +33,13 @@ h2 {
   top: 0;
   right: 0;
 
-  overflow: auto;
+  overflow: hidden;
 }
 
 
 .app-bar-left {
   float: left;
-  overflow:auto;
+  overflow:hidden;
 }
 .app-bar-left h1 {
   
